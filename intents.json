@@ -1,0 +1,41 @@
+intents = {
+    "greeting": {
+        "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+        "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    "goodbye": {
+        "patterns": ["bye", "see you", "goodbye", "see you later"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    "thanks": {
+        "patterns": ["thanks", "thank you", "thank you very much"],
+        "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    "how_are_you": {
+        "patterns": ["how are you", "how's it going", "how are you doing"],
+        "responses": ["I'm fine, thank you!", "Doing great! How about you?"]
+    },
+    "name": {
+        "patterns": ["what is your name", "who are you", "your name"],
+        "responses": ["I'm your friendly chatbot!", "You can call me ChatBot."]
+    },
+    "age": {
+        "patterns": ["how old are you", "what is your age"],
+        "responses": ["I’m timeless!", "I don’t have an age like humans."]
+    },
+    "jokes": {
+        "patterns": ["tell me a joke", "make me laugh", "joke"],
+        "responses": [
+            "Why did the computer go to the doctor? Because it caught a virus!",
+            "Why do programmers prefer dark mode? Because light attracts bugs!"
+        ]
+    },
+    "weather": {
+        "patterns": ["what's the weather", "weather today", "is it raining"],
+        "responses": ["I can't check the weather yet, but I hope it's nice!", "Weather seems unpredictable these days!"]
+    },
+    "default": {
+        "patterns": [],
+        "responses": ["Sorry, I don't understand.", "Can you rephrase that?", "I'm not sure I got that."]
+    }
+}
